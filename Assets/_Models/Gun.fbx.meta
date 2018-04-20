@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 09b30c5f575e149419b3d212349975a9
+timeCreated: 1517083852
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface44
+    100004: polySurface45
+    100006: polySurface46
+    100008: polySurface47
+    100010: polySurface48
+    100012: polySurface49
+    100014: polySurface50
+    100016: polySurface51
+    100018: polySurface52
+    100020: polySurface52 1
+    100022: polySurface53
+    100024: polySurface54
+    100026: polySurface55
+    100028: polySurface56
+    100030: polySurface57
+    100032: polySurface58
+    100034: polySurface59
+    100036: polySurface60
+    100038: polySurface60 1
+    100040: transform10
+    100042: transform11
+    100044: transform12
+    100046: transform13
+    100048: transform14
+    100050: transform15
+    100052: transform16
+    100054: transform17
+    100056: transform18
+    100058: transform19
+    100060: transform20
+    100062: transform21
+    100064: transform22
+    100066: transform23
+    100068: transform24
+    400000: //RootNode
+    400002: polySurface44
+    400004: polySurface45
+    400006: polySurface46
+    400008: polySurface47
+    400010: polySurface48
+    400012: polySurface49
+    400014: polySurface50
+    400016: polySurface51
+    400018: polySurface52
+    400020: polySurface52 1
+    400022: polySurface53
+    400024: polySurface54
+    400026: polySurface55
+    400028: polySurface56
+    400030: polySurface57
+    400032: polySurface58
+    400034: polySurface59
+    400036: polySurface60
+    400038: polySurface60 1
+    400040: transform10
+    400042: transform11
+    400044: transform12
+    400046: transform13
+    400048: transform14
+    400050: transform15
+    400052: transform16
+    400054: transform17
+    400056: transform18
+    400058: transform19
+    400060: transform20
+    400062: transform21
+    400064: transform22
+    400066: transform23
+    400068: transform24
+    2100000: Gun_Base
+    2100002: Gun_Sphere
+    2100004: Gun_Ring
+    2100006: Gun_Spokes
+    2300000: polySurface57
+    2300002: polySurface58
+    2300004: polySurface59
+    2300006: polySurface60
+    3300000: polySurface57
+    3300002: polySurface58
+    3300004: polySurface59
+    3300006: polySurface60
+    4300000: polySurface57
+    4300002: polySurface58
+    4300004: polySurface59
+    4300006: polySurface60
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Base
+    second: {fileID: 2100000, guid: 7e9a7231435bcb2428bb3f098d16277a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Ring
+    second: {fileID: 2100000, guid: 362511f754a3c2740989ef09c780f5a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Sphere
+    second: {fileID: 2100000, guid: f86684333761d044b801490f98041bcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gun_Spokes
+    second: {fileID: 2100000, guid: 95d3bc7cb8dcfc24d950805e8ac6b49e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

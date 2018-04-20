@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1638580754095902}
+  m_IsPrefabParent: 1
+--- !u!1 &1638580754095902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4889806258860096}
+  - component: {fileID: 114873349708691856}
+  m_Layer: 0
+  m_Name: Item Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4889806258860096
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1638580754095902}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114873349708691856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1638580754095902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f796c2c30aade24c8d3ba3df3492ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 256
+  okayLootSpawns:
+  - {fileID: 0}
+  goodLootSpawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rareLootSpawns:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  okayItems:
+  - {fileID: 11400000, guid: 83de8cf9a93167d4ebb62d1d2eb698d3, type: 2}
+  - {fileID: 11400000, guid: 435ae4bfe0d7f864a9f0bb88609e60a1, type: 2}
+  - {fileID: 11400000, guid: d63fae715de6fe341a89378cc3d507af, type: 2}
+  goodItems:
+  - {fileID: 11400000, guid: 947c8f50066f50644938ef79c129bb2b, type: 2}
+  - {fileID: 11400000, guid: 0514cfdbd3a78d74d96928619a1f823d, type: 2}
+  - {fileID: 11400000, guid: 83de8cf9a93167d4ebb62d1d2eb698d3, type: 2}
+  - {fileID: 11400000, guid: 435ae4bfe0d7f864a9f0bb88609e60a1, type: 2}
+  - {fileID: 11400000, guid: d63fae715de6fe341a89378cc3d507af, type: 2}
+  rareItems:
+  - {fileID: 11400000, guid: d15aaf9f985ffe44caf4c72e95ff8e62, type: 2}
+  - {fileID: 11400000, guid: 947c8f50066f50644938ef79c129bb2b, type: 2}
+  - {fileID: 11400000, guid: 0514cfdbd3a78d74d96928619a1f823d, type: 2}
+  itemPrefab: {fileID: 1501063776885082, guid: 7d20e6a7e148695408a5101b362340c5, type: 2}
+  goodSpawnChance: 0.6
+  rareSpawnChance: 0.85
+  itemsAtStart: 10
+  minSpawnTime: 0
+  maxSpawnTime: 5

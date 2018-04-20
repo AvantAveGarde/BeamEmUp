@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 287c021d56226154c80791b159684bfa
+timeCreated: 1517170618
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: BellyJoint_M
+    100006: Chest_M
+    100008: Elbow_L
+    100010: Elbow_R
+    100012: Eye_L
+    100014: Eye_R
+    100016: EyeEnd_L
+    100018: EyeEnd_R
+    100020: FKExtraRoot_M
+    100022: FKIKParentConstraintSpine_M
+    100024: FKIKSpine_M
+    100026: FKIKSystem
+    100028: FKOffsetRoot_M
+    100030: FKRoot_M
+    100032: FKSystem
+    100034: FKXRoot_M
+    100036: Group
+    100038: Head_M
+    100040: HeadEnd_M
+    100042: Hip_L
+    100044: Hip_R
+    100046: HipSwingReverse
+    100048: HipSwingReverseRoot
+    100050: IKExtraSpine1_M
+    100052: IKExtraSpine2_M
+    100054: IKHandle
+    100056: IKJoints
+    100058: IKOffsetSpine1_M
+    100060: IKOffsetSpine2_M
+    100062: IKParentConstraintRoot_M
+    100064: IKRootConstraint
+    100066: IKScalerRoot_M
+    100068: IKSpine1_M
+    100070: IKSpine2_M
+    100072: IKSpRoot_M
+    100074: IKSpRootFollowOffset_M
+    100076: IKSpSpineOffset_M
+    100078: IKSystem
+    100080: IKXOffsetRoot_M
+    100082: IKXRoot_M
+    100084: Jaw_M
+    100086: JawEnd_M
+    100088: Knee_L
+    100090: Knee_R
+    100092: Main
+    100094: MotionSystem
+    100096: Neck_M
+    100098: Root_M
+    100100: Scapula_L
+    100102: Scapula_R
+    100104: Shoulder_L
+    100106: Shoulder_R
+    100108: ShoulderPart1_L
+    100110: ShoulderPart1_R
+    100112: ShoulderPart2_L
+    100114: ShoulderPart2_R
+    100116: //RootNode
+    100118: Spine1_M
+    100120: Spine2_M
+    100122: Wrist_L
+    100124: Wrist_PROP
+    100126: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: BellyJoint_M
+    400006: Chest_M
+    400008: Elbow_L
+    400010: Elbow_R
+    400012: Eye_L
+    400014: Eye_R
+    400016: EyeEnd_L
+    400018: EyeEnd_R
+    400020: FKExtraRoot_M
+    400022: FKIKParentConstraintSpine_M
+    400024: FKIKSpine_M
+    400026: FKIKSystem
+    400028: FKOffsetRoot_M
+    400030: FKRoot_M
+    400032: FKSystem
+    400034: FKXRoot_M
+    400036: Group
+    400038: Head_M
+    400040: HeadEnd_M
+    400042: Hip_L
+    400044: Hip_R
+    400046: HipSwingReverse
+    400048: HipSwingReverseRoot
+    400050: IKExtraSpine1_M
+    400052: IKExtraSpine2_M
+    400054: IKHandle
+    400056: IKJoints
+    400058: IKOffsetSpine1_M
+    400060: IKOffsetSpine2_M
+    400062: IKParentConstraintRoot_M
+    400064: IKRootConstraint
+    400066: IKScalerRoot_M
+    400068: IKSpine1_M
+    400070: IKSpine2_M
+    400072: IKSpRoot_M
+    400074: IKSpRootFollowOffset_M
+    400076: IKSpSpineOffset_M
+    400078: IKSystem
+    400080: IKXOffsetRoot_M
+    400082: IKXRoot_M
+    400084: Jaw_M
+    400086: JawEnd_M
+    400088: Knee_L
+    400090: Knee_R
+    400092: Main
+    400094: MotionSystem
+    400096: Neck_M
+    400098: Root_M
+    400100: Scapula_L
+    400102: Scapula_R
+    400104: Shoulder_L
+    400106: Shoulder_R
+    400108: ShoulderPart1_L
+    400110: ShoulderPart1_R
+    400112: ShoulderPart2_L
+    400114: ShoulderPart2_R
+    400116: //RootNode
+    400118: Spine1_M
+    400120: Spine2_M
+    400122: Wrist_L
+    400124: Wrist_PROP
+    400126: Wrist_R
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e43229cd9a0736f46b5ee78fe3fbd26f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,579 @@
+fileFormatVersion: 2
+guid: e43229cd9a0736f46b5ee78fe3fbd26f
+timeCreated: 1517088248
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Alien
+    100002: //RootNode
+    100004: Ankle_L
+    100006: Ankle_R
+    100008: BellyJoint_M
+    100010: Chest_M
+    100012: Elbow_L
+    100014: Elbow_R
+    100016: Eye_L
+    100018: Eye_R
+    100020: EyeEnd_L
+    100022: EyeEnd_R
+    100024: FKExtraRoot_M
+    100026: FKIKParentConstraintSpine_M
+    100028: FKIKSpine_M
+    100030: FKIKSystem
+    100032: FKOffsetRoot_M
+    100034: FKRoot_M
+    100036: FKSystem
+    100038: FKXRoot_M
+    100040: Group
+    100042: Head_M
+    100044: HeadEnd_M
+    100046: Hip_L
+    100048: Hip_R
+    100050: HipSwingReverse
+    100052: HipSwingReverseRoot
+    100054: IKExtraSpine1_M
+    100056: IKExtraSpine2_M
+    100058: IKHandle
+    100060: IKJoints
+    100062: IKOffsetSpine1_M
+    100064: IKOffsetSpine2_M
+    100066: IKParentConstraintRoot_M
+    100068: IKRootConstraint
+    100070: IKScalerRoot_M
+    100072: IKSpine1_M
+    100074: IKSpine2_M
+    100076: IKSpRoot_M
+    100078: IKSpRootFollowOffset_M
+    100080: IKSpSpineOffset_M
+    100082: IKSystem
+    100084: IKXOffsetRoot_M
+    100086: IKXRoot_M
+    100088: Jaw_M
+    100090: JawEnd_M
+    100092: Knee_L
+    100094: Knee_R
+    100096: Main
+    100098: MotionSystem
+    100100: Neck_M
+    100102: PropGun
+    100104: Root_M
+    100106: Scapula_L
+    100108: Scapula_R
+    100110: Shoulder_L
+    100112: Shoulder_R
+    100114: ShoulderPart1_L
+    100116: ShoulderPart1_R
+    100118: ShoulderPart2_L
+    100120: ShoulderPart2_R
+    100122: Spine1_M
+    100124: Spine2_M
+    100126: Wrist_L
+    100128: Wrist_PROP
+    100130: Wrist_R
+    400000: Alien
+    400002: //RootNode
+    400004: Ankle_L
+    400006: Ankle_R
+    400008: BellyJoint_M
+    400010: Chest_M
+    400012: Elbow_L
+    400014: Elbow_R
+    400016: Eye_L
+    400018: Eye_R
+    400020: EyeEnd_L
+    400022: EyeEnd_R
+    400024: FKExtraRoot_M
+    400026: FKIKParentConstraintSpine_M
+    400028: FKIKSpine_M
+    400030: FKIKSystem
+    400032: FKOffsetRoot_M
+    400034: FKRoot_M
+    400036: FKSystem
+    400038: FKXRoot_M
+    400040: Group
+    400042: Head_M
+    400044: HeadEnd_M
+    400046: Hip_L
+    400048: Hip_R
+    400050: HipSwingReverse
+    400052: HipSwingReverseRoot
+    400054: IKExtraSpine1_M
+    400056: IKExtraSpine2_M
+    400058: IKHandle
+    400060: IKJoints
+    400062: IKOffsetSpine1_M
+    400064: IKOffsetSpine2_M
+    400066: IKParentConstraintRoot_M
+    400068: IKRootConstraint
+    400070: IKScalerRoot_M
+    400072: IKSpine1_M
+    400074: IKSpine2_M
+    400076: IKSpRoot_M
+    400078: IKSpRootFollowOffset_M
+    400080: IKSpSpineOffset_M
+    400082: IKSystem
+    400084: IKXOffsetRoot_M
+    400086: IKXRoot_M
+    400088: Jaw_M
+    400090: JawEnd_M
+    400092: Knee_L
+    400094: Knee_R
+    400096: Main
+    400098: MotionSystem
+    400100: Neck_M
+    400102: PropGun
+    400104: Root_M
+    400106: Scapula_L
+    400108: Scapula_R
+    400110: Shoulder_L
+    400112: Shoulder_R
+    400114: ShoulderPart1_L
+    400116: ShoulderPart1_R
+    400118: ShoulderPart2_L
+    400120: ShoulderPart2_R
+    400122: Spine1_M
+    400124: Spine2_M
+    400126: Wrist_L
+    400128: Wrist_PROP
+    400130: Wrist_R
+    2100000: lambert1
+    2100002: Alien_eye_Mat
+    2100004: Alien_Body_MAT
+    2300000: PropGun
+    3300000: PropGun
+    4300000: PropGun
+    4300002: Alien
+    7400000: Running
+    7400002: Shoot
+    7400004: ShootingLoop
+    9500000: //RootNode
+    13700000: Alien
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien
+        weight: 1
+      - path: Group
+        weight: 0
+      - path: Group/Main
+        weight: 0
+      - path: Group/Main/MotionSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M/FKIKSpine_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/HipSwingReverse
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/HipSwingReverse/HipSwingReverseRoot
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M/IKSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKScalerRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M/IKXOffsetRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M/IKXOffsetRoot_M/IKXRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M/IKSpRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M/IKSpRoot_M/IKSpRootFollowOffset_M
+        weight: 0
+      - path: Root_M
+        weight: 1
+      - path: Root_M/BellyJoint_M
+        weight: 0
+      - path: Root_M/Hip_L
+        weight: 0
+      - path: Root_M/Hip_L/Knee_L
+        weight: 0
+      - path: Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 0
+      - path: Root_M/Hip_R
+        weight: 0
+      - path: Root_M/Hip_R/Knee_R
+        weight: 0
+      - path: Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 0
+      - path: Root_M/Spine1_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_L/EyeEnd_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_R/EyeEnd_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R/Wrist_PROP
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R/Wrist_PROP/PropGun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien
+        weight: 1
+      - path: Group
+        weight: 0
+      - path: Group/Main
+        weight: 0
+      - path: Group/Main/MotionSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKIKSystem/FKIKParentConstraintSpine_M/FKIKSpine_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/FKXRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/HipSwingReverse
+        weight: 0
+      - path: Group/Main/MotionSystem/FKSystem/FKOffsetRoot_M/FKExtraRoot_M/FKRoot_M/HipSwingReverse/HipSwingReverseRoot
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine1_M/IKExtraSpine1_M/IKSpine1_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKRootConstraint/IKOffsetSpine2_M/IKExtraSpine2_M/IKSpine2_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKHandle/IKScalerRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M/IKXOffsetRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKParentConstraintRoot_M/IKXOffsetRoot_M/IKXRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M/IKSpRoot_M
+        weight: 0
+      - path: Group/Main/MotionSystem/IKSystem/IKJoints/IKSpSpineOffset_M/IKSpRoot_M/IKSpRootFollowOffset_M
+        weight: 0
+      - path: Root_M
+        weight: 0
+      - path: Root_M/BellyJoint_M
+        weight: 0
+      - path: Root_M/Hip_L
+        weight: 0
+      - path: Root_M/Hip_L/Knee_L
+        weight: 0
+      - path: Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 0
+      - path: Root_M/Hip_R
+        weight: 0
+      - path: Root_M/Hip_R/Knee_R
+        weight: 0
+      - path: Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 0
+      - path: Root_M/Spine1_M
+        weight: 0
+      - path: Root_M/Spine1_M/Spine2_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_L/EyeEnd_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Eye_R/EyeEnd_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_L/Shoulder_L/ShoulderPart1_L/ShoulderPart2_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R/Wrist_PROP
+        weight: 1
+      - path: Root_M/Spine1_M/Spine2_M/Chest_M/Scapula_R/Shoulder_R/ShoulderPart1_R/ShoulderPart2_R/Elbow_R/Wrist_R/Wrist_PROP/PropGun
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ShootingLoop
+      takeName: Take 001
+      firstFrame: 42
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
