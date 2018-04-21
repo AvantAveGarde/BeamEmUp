@@ -57,7 +57,6 @@ public class Zapper : MonoBehaviour
 
         Debug.DrawRay(gun.transform.position, shooterGameCamera.gunTarget.position - gun.transform.position, Color.green);
 
-        // TODO: move start point forwards a little bit
         Vector3 direction = (shooterGameCamera.gunTarget.position - gun.transform.position).normalized;
         Vector3 startPoint = gun.transform.position + 2 * direction;
         float distance = rayDistance;
