@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4803823375042456}
   - component: {fileID: 135993073407005364}
   - component: {fileID: 23339986497560124}
-  - component: {fileID: 114330868994693314}
   m_Layer: 0
   m_Name: People Spawner
   m_TagString: Untagged
@@ -35,8 +34,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1420792248213862}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.43208, y: -0.7252846, z: -1.1669936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.55, y: 17.81, z: -0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,27 +75,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &114330868994693314
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1420792248213862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55270d35496c9344480cc9066de755c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minObjectSpawnTime: 5
-  maxObjectSpawnTime: 10
-  maxItemsToSpawn: 3
-  collisionsMask:
-    serializedVersion: 2
-    m_Bits: 256
-  itemList:
-  - {fileID: 1668388621771650, guid: 1126443d2b0c55542bf181b1589dd7b6, type: 2}
-  - {fileID: 1995585901678184, guid: 583faec06ea3c644fa06ed4f4bb14210, type: 2}
-  spawnRadius: 20
 --- !u!135 &135993073407005364
 SphereCollider:
   m_ObjectHideFlags: 1
