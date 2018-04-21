@@ -17,9 +17,9 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 78fbe70789159e244b2c3e9d4da90b21, type: 2}
   - {fileID: 2100000, guid: 8fe5a9472ed334342b05d1a5363dee0f, type: 2}
   - {fileID: 2100000, guid: 495b10a4d9204634b97877fd563a77d4, type: 2}
-  timeLimit: 10
+  timeLimit: 120
   distanceToZap: 8
   timeToZap: 1
-  playerScores: 0000000000000000
+  playerScores: 9001000000000000
   HorizontalMode: 0
   playerYAxisInverted: 00000000
