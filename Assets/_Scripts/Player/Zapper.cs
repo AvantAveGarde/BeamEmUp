@@ -71,7 +71,7 @@ public class Zapper : MonoBehaviour
         //    (shooterGameCamera.gunTarget.position - gun.transform.position).normalized, out hit, rayDistance, ignoreMask))
 
         // Extended physics sphere cast with visualizations
-        if (Physics.SphereCast(startPoint, 3, direction, out hit, distance, preview, 0, hitColor, noHitColor))
+        if (Physics.SphereCast(startPoint, 3, direction, out hit, distance, ignoreMask, preview, 0, hitColor, noHitColor))
         {
             raycastHit = hit;
             return true;
