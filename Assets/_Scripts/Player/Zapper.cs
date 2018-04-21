@@ -1,7 +1,6 @@
 ﻿using Rewired;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Physics = RotaryHeart.Lib.PhysicsExtension.Physics;
 
 public class Zapper : MonoBehaviour
 {
@@ -10,6 +9,9 @@ public class Zapper : MonoBehaviour
     public GameObject gun;
     public Animator AnimController;
     private ShooterGameCamera shooterGameCamera;
+
+    [Header("Debug settings")]
+    public Physics.PreviewCondition preview = Physics.PreviewCondition.Editor;
 
     private GameManager gm;
     private Player player;
@@ -53,10 +55,23 @@ public class Zapper : MonoBehaviour
     {
         LayerMask ignoreMask = (LayerMask.NameToLayer("Player"));
         RaycastHit hit;
+
+
         Debug.DrawRay(gun.transform.position, shooterGameCamera.gunTarget.position - gun.transform.position, Color.green);
 
-        if (Physics.SphereCast(gun.transform.position, 3.0f, 
-            (shooterGameCamera.gunTarget.position - gun.transform.position).normalized, out hit, rayDistance, ignoreMask))
+        Vector3 startPoint = gun.transform.position;
+        Vector3 direction = (shooterGameCamera.gunTarget.position - gun.transform.position).normalized;
+        float distance = rayDistance;
+        Color hitColor = Color.green;
+        Color noHitColor = Color.red;
+
+
+        // Original Unity physics sphere cast
+        //if (Physics.SphereCast(gun.transform.position, 3.0f, 
+        //    (shooterGameCamera.gunTarget.position - gun.transform.position).normalized, out hit, rayDistance, ignoreMask))
+
+        // Extended physics sphere cast with visualizations
+        if (Physics.SphereCast(startPoint, 3, direction, out hit, distance, preview, 0, hitColor, noHitColor))
         {
             raycastHit = hit;
             return true;
