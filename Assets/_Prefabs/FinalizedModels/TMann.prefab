@@ -3254,6 +3254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e382dad0a4c222344b4a4b89502f9753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   audioSource: {fileID: 114379719486023084}
   itemData: {fileID: 11400000, guid: aa293a3effa09d9459ea4ece367deb9a, type: 2}
   itemHoverHeight: 0
@@ -3282,14 +3285,14 @@ MonoBehaviour:
   _bypassReverbZone: 0
   _playOnAwake: 1
   _loop: 0
-  _priority: 128
+  _priority: 256
   _volume: 1
   _pitch: 1
   _reverbZoneMix: 1
   _dopplerLevel: 1
   _spread: 0
   _volumeRolloff: 0
-  _minDistance: 1
+  _minDistance: 10
   _maxDistance: 500
   OnlyPlayForClosestCamera: 0
 --- !u!114 &114500172699465400
@@ -3322,14 +3325,14 @@ MonoBehaviour:
   _bypassReverbZone: 0
   _playOnAwake: 1
   _loop: 0
-  _priority: 0
+  _priority: 72
   _volume: 0.5
   _pitch: 1
   _reverbZoneMix: 1
   _dopplerLevel: 1
   _spread: 0
   _volumeRolloff: 0
-  _minDistance: 1
+  _minDistance: 5
   _maxDistance: 500
   OnlyPlayForClosestCamera: 0
 --- !u!114 &114568133244383862
