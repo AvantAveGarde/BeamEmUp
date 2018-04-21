@@ -1,4 +1,5 @@
-﻿using Rewired;
+﻿using Assets.MultiAudioListener;
+using Rewired;
 using UnityEngine;
 using Physics = RotaryHeart.Lib.PhysicsExtension.Physics;
 
@@ -9,6 +10,7 @@ public class Zapper : MonoBehaviour
     public GameObject gun;
     public Animator AnimController;
     private ShooterGameCamera shooterGameCamera;
+    public MultiAudioSource audioSource;
 
     [Header("Debug settings")]
     public Physics.PreviewCondition preview = Physics.PreviewCondition.Editor;
@@ -80,12 +82,14 @@ public class Zapper : MonoBehaviour
         {
             playerIsShooting = true;
             shootingParticleSystem.Play();
+            audioSource.Play();
             AnimController.SetBool("Shooting", true);
         }
         else if (player.GetButtonUp("Shoot"))
         {
             playerIsShooting = false;
             shootingParticleSystem.Stop();
+            audioSource.Stop();
             AnimController.SetBool("Shooting", false);
             player.StopVibration();
         }
