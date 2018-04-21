@@ -28,9 +28,10 @@ public class EndMenuMng : MonoBehaviour
         int winnerID = 0;
         int highScore = gameData.playerScores[0];
 
-        for (int i = 1; i < gameData.numberOfPlayers; i++)
+        for (int i = 0; i <= gameData.numberOfPlayers - 1; i++)
         {
             players[i].SetActive(true);
+            playerScoreTexts[i].text = gameData.playerScores[i].ToString();
 
             if (gameData.playerScores[i] > highScore)
             {
